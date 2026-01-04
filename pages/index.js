@@ -1,13 +1,15 @@
 import Image from "next/image";
+import Skills from "../components/Skills";
 import {
   FaLinkedin,
   FaGithub,
 } from "react-icons/fa";
 import { SiKaggle, SiCoursera, SiCodeforces, SiLeetcode } from "react-icons/si";
 
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center px-6 md:px-12">
+    <main className="min-h-screen flex flex-col items-center justify-center px-6 md:px-12">
       <section className="mt-2 max-w-5xl mx-auto flex flex-col md:flex-row items-start gap-12">
 
         {/* Left: Profile Image */}
@@ -63,14 +65,14 @@ export default function Home() {
 
           {/* About Me */}
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed pt-4 text-sm md:text-base text-justify">
-            I’m a Data Scientist focused on delivering business value through advanced analytics and predictive modeling, 
-            leveraging Machine Learning and Deep Learning techniques. I transitioned into the field of Data Science and AI 
-            by pursuing a Master’s in CSE with a major in Data Science, driven by a long-standing love for Mathematics and 
-            problem-solving. I’m currently working on an ADB-funded project that uses AI and IoT to reduce water consumption 
-            in textile dyeing factories. Beyond this, I’ve worked on various projects ranging from fabric defect detection 
-            using CNNs to fine-tuning models and building RAG applications. I’m currently doing two research works. One is 
-            inventing a noble clustering algorithm based on density and the second one is optimization of backpropagation 
-            in neural networks. Additionally, I was a Mathematics lecturer at Sunrise Coaching Centre and UCC. Apart from 
+            I’m a Data Scientist focused on delivering business value through advanced analytics and predictive modeling,
+            leveraging Machine Learning and Deep Learning techniques. I transitioned into the field of Data Science and AI
+            by pursuing a Master’s in CSE with a major in Data Science, driven by a long-standing love for Mathematics and
+            problem-solving. I’m currently working on an ADB-funded project that uses AI and IoT to reduce water consumption
+            in textile dyeing factories. Beyond this, I’ve worked on various projects ranging from fabric defect detection
+            using CNNs to fine-tuning models and building RAG applications. I’m currently doing two research works. One is
+            inventing a noble clustering algorithm based on density and the second one is optimization of backpropagation
+            in neural networks. Additionally, I was a Mathematics lecturer at Sunrise Coaching Centre and UCC. Apart from
             this, I bring discipline, reliability and a “get things done” attitude with a strong analytical mindset.
           </p>
 
@@ -87,6 +89,9 @@ export default function Home() {
 
         </div>
       </section>
+
+      {/* Skills Section */}
+      <Skills />
     </main>
   );
 }

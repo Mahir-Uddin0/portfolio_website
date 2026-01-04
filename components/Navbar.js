@@ -8,7 +8,6 @@ import { useRouter } from "next/router";
 export default function Navbar() {
   const routes = [
     { href: "/", label: "Home" },
-    { href: "/skills", label: "Skills" },
     { href: "/projects", label: "Projects" },
     { href: "/research", label: "Research" },
     { href: "/certificates", label: "Certificates" },
