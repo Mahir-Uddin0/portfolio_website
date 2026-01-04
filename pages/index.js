@@ -2,8 +2,6 @@ import Image from "next/image";
 import {
   FaLinkedin,
   FaGithub,
-  // FaCode,
-  // FaLaptopCode,
 } from "react-icons/fa";
 import { SiKaggle, SiCoursera, SiCodeforces, SiLeetcode } from "react-icons/si";
 
@@ -27,44 +25,44 @@ export default function Home() {
         <div className="space-y-4 text-center md:text-left">
 
           {/* Name */}
-          <h1 className="text-5xl md:text-4xl font-bold text-gray-900 tracking-tight">
+          <h1 className="text-5xl md:text-4xl font-bold text-gray-900 dark:text-white tracking-tight">
             Md. Mahir Uddin
           </h1>
 
           {/* Title */}
-          <h2 className="text-lg md:text-2xl font-semibold text-gray-500">
-            Data Scientist <span className="text-gray-400">|</span> Machine Learning & Gen AI
+          <h2 className="text-lg md:text-2xl font-semibold text-gray-500 dark:text-gray-300">
+            Data Scientist <span className="text-gray-400 dark:text-gray-500">|</span> Machine Learning & Gen AI
           </h2>
 
           {/* Credentials */}
-          <p className="text-lg md:text-1.5xl text-gray-500 font-medium">
+          <p className="text-lg md:text-1.5xl text-gray-500 dark:text-gray-400 font-medium">
             Codeforces 1242 <span className="mx-1">·</span> IYMC Gold Medalist
           </p>
 
           {/* Profile Links */}
-          <div className="flex justify-center md:justify-start gap-5 text-gray-600 text-2xl pt-2">
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 transition">
+          <div className="flex justify-center md:justify-start gap-5 text-gray-600 dark:text-gray-300 text-2xl pt-2">
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
               <FaLinkedin />
             </a>
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 transition">
+            <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
               <FaGithub />
             </a>
-            <a href="https://codeforces.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 transition">
+            <a href="https://codeforces.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
               <SiCodeforces />
             </a>
-            <a href="https://leetcode.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 transition">
+            <a href="https://leetcode.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
               <SiLeetcode />
             </a>
-            <a href="https://kaggle.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 transition">
+            <a href="https://kaggle.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
               <SiKaggle />
             </a>
-            <a href="https://coursera.org" target="_blank" rel="noreferrer" className="hover:text-indigo-600 transition">
+            <a href="https://coursera.org" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
               <SiCoursera />
             </a>
           </div>
 
           {/* About Me */}
-          <p className="text-gray-700 leading-relaxed pt-4 text-sm md:text-base text-justify">
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed pt-4 text-sm md:text-base text-justify">
             I’m a Data Scientist focused on delivering business value through advanced analytics and predictive modeling, 
             leveraging Machine Learning and Deep Learning techniques. I transitioned into the field of Data Science and AI 
             by pursuing a Master’s in CSE with a major in Data Science, driven by a long-standing love for Mathematics and 
@@ -81,7 +79,7 @@ export default function Home() {
             <a
               href="/Md_Mahir_Uddin_Resume.pdf"
               download
-              className="inline-block px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition"
+              className="inline-block px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 dark:hover:bg-indigo-500 transition"
             >
               Download Resume
             </a>
