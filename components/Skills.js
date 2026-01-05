@@ -1,8 +1,7 @@
 import Image from "next/image";
-import { FaPython, FaJsSquare, FaHtml5, FaCss3Alt, FaLinux } from "react-icons/fa";
-import { SiTensorflow, SiC, SiPytorch, SiNumpy, SiPandas, SiDocker, SiGit, SiKubernetes } from "react-icons/si";
+import { FaPython, FaJsSquare, FaHtml5, FaCss3Alt, FaLinux, FaDatabase } from "react-icons/fa";
+import { SiTensorflow, SiC, SiPytorch, SiNumpy, SiMysql, SiPandas, SiDocker, SiGit, SiKubernetes } from "react-icons/si";
 import { FaProjectDiagram, FaLanguage, FaRegImage, FaCamera } from "react-icons/fa";
-import { GiArtificialIntelligence, GiBrain } from "react-icons/gi";
 
 
 export default function Skills() {
@@ -17,9 +16,10 @@ export default function Skills() {
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/ml.svg" alt="ML" width={24} height={24} className="dark:invert"/> ML</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/dl.png" alt="DL" width={24} height={24} className="dark:invert"/> DL</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/nlp.png" alt="NLP" width={24} height={24} className="dark:invert"/> NLP</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/cv.png" alt="C" width={24} height={24} className="dark:invert"/> CV</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"> RL</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><GiArtificialIntelligence className="text-yellow-400 text-xl" /> Gen AI</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/cv.png" alt="CV" width={24} height={24} className="dark:invert"/> CV</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/rl.png" alt="RL" width={24} height={24}/> RL</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/ai.png" alt="AI" width={24} height={24} className="dark:invert"/> AI</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/chatgpt.svg" alt="Gen AI" width={22} height={22} className="dark:invert"/> Gen AI</span>
           </div>
         </div>
 
@@ -30,9 +30,10 @@ export default function Skills() {
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaPython className="text-yellow-400 text-xl" /> Python</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/c.svg" alt="C" width={24} height={24}/> C</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/c++.svg" alt="C++" width={59} height={59}/> C++</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaJsSquare className="text-yellow-300 text-xl" /> JavaScript</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaHtml5 className="text-orange-500 text-xl" /> HTML</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaCss3Alt className="text-blue-500 text-xl" /> CSS</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaJsSquare className="text-yellow-300 text-xl" /> JavaScript</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaDatabase className="text-yellow-300 text-xl" /> SQL</span>
           </div>
         </div>
 
