@@ -1,5 +1,6 @@
-import { FaPython, FaJava, FaJsSquare, FaHtml5, FaCss3Alt, FaGit, FaLinux } from "react-icons/fa";
-import { SiTensorflow, SiPytorch, SiNumpy, SiPandas, SiDocker, SiKubernetes } from "react-icons/si";
+import Image from "next/image";
+import { FaPython, FaJsSquare, FaHtml5, FaCss3Alt, FaLinux } from "react-icons/fa";
+import { SiTensorflow, SiC, SiPytorch, SiNumpy, SiPandas, SiDocker, SiGit, SiKubernetes } from "react-icons/si";
 
 export default function Skills() {
   return (
@@ -24,11 +25,11 @@ export default function Skills() {
           <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-4">Languages</h3>
           <div className="flex flex-wrap gap-4">
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaPython className="text-yellow-400 text-xl" /> Python</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition">C</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition">C++</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaJsSquare className="text-yellow-300 text-xl" /> JavaScript</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/c.svg" alt="C" width={24} height={24}/> C</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/c++.svg" alt="C++" width={59} height={59}/> C++</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaHtml5 className="text-orange-500 text-xl" /> HTML</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaCss3Alt className="text-blue-500 text-xl" /> CSS</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaJsSquare className="text-yellow-300 text-xl" /> JavaScript</span>
           </div>
         </div>
 
@@ -38,25 +39,24 @@ export default function Skills() {
           <div className="flex flex-wrap gap-4">
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiNumpy className="text-blue-600 text-xl" /> Numpy</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiPandas className="text-green-600 text-xl" /> Pandas</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition">Matplotlib</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition">Seaborn</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition">Scikit-Learn</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/matplotlib.svg" alt="Matplotlib" width={24} height={24}/> Matplotlib</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/seaborn.svg" alt="Seaborn" width={24} height={24}/> Seaborn</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/scikit-learn.svg" alt="Scikit-Learn" width={24} height={24}/> Scikit-Learn</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiTensorflow className="text-orange-500 text-xl" /> TensorFlow</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiPytorch className="text-red-600 text-xl" />PyTorch</span>
-          </div>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiPytorch className="text-red-600 text-xl" /> PyTorch</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/langchain.svg" alt="LangChain" width={36} height={36} className="dark:invert" /> Langchain</span>
+         </div>
         </div>
 
         {/* Tools & Platforms */}
         <div>
-          <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-4">Tools & Platforms</h3>
+          <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-4">Others</h3>
           <div className="flex flex-wrap gap-4">
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaGit className="text-orange-600 text-xl" /> Git</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaLinux className="text-gray-500 text-xl" /> Linux</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition">MS Excel</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition">MS Word</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiDocker className="text-blue-500 text-xl" /> Docker</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiKubernetes className="text-blue-600 text-xl" /> Kubernetes</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition">Data Engineering</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiGit className="text-orange-600 text-xl" /> Git</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/linux.svg" alt="Linux" width={24} height={24}/> Linux</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/excel.svg" alt="Excel" width={24} height={24}/> MS Excel</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/word.svg" alt="Word" width={24} height={24}/> MS Word</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/latex.svg" alt="LaTeX" width={24} height={24} className="dark:invert"/> LaTeX</span>
           </div>
         </div>
 

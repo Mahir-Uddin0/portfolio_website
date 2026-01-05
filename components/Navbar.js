@@ -1,4 +1,4 @@
-"use client"; // Required if using Next.js app router
+"use client";
 
 import { useEffect, useState } from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
@@ -50,7 +50,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Left: Name */}
           <div className="text-xl font-semibold text-gray-900 dark:text-white">
-            Mahir Uddin
+            MU
           </div>
 
           {/* Middle: Nav Links */}
