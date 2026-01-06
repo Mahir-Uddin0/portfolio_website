@@ -2,7 +2,6 @@ export default function Research() {
   return (
     <main className="min-h-screen bg-white dark:bg-black">
 
-      {/* Research Section */}
       <section className="max-w-6xl mx-auto px-6 md:px-12 py-20">
 
         {/* Header */}
@@ -10,26 +9,27 @@ export default function Research() {
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
             Research Work
           </h1>
-          <p className="mt-4 text-gray-600 dark:text-gray-400 leading-relaxed">
-            This section showcases my academic and course-based research work.
-            Although these papers are not yet published, they reflect my ability
-            to explore problems deeply, design algorithms, and apply analytical
-            thinking to real-world and theoretical challenges.
+          <p className="mt-4 text-gray-600 dark:text-gray-400 leading-relaxed text-justify">
+            The following are IEEE-format conference-style research papers
+            completed as part of my university coursework and independent study.
+            These papers are not published. Ongoing and
+            publishable research works are not included here.
           </p>
         </div>
 
         {/* Research Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-          {/* Research Card 1 */}
+          {/* Paper 1 */}
           <a
             href="/research/paper1.pdf"
             target="_blank"
             rel="noreferrer"
-            className="group rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 shadow-md hover:shadow-xl transition"
+            className="group rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800
+                       bg-gray-50 dark:bg-gray-900 shadow-sm hover:shadow-lg transition"
           >
-            {/* PDF Preview (Always Light) */}
-            <div className="h-52 bg-white overflow-hidden">
+            {/* PDF Preview (always white) */}
+            <div className="h-52 bg-white overflow-hidden border-b border-gray-200">
               <embed
                 src="/research/paper1.pdf"
                 type="application/pdf"
@@ -37,26 +37,28 @@ export default function Research() {
               />
             </div>
 
-            {/* Text Content */}
             <div className="p-5">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition">
-                Fabric Defect Detection Using Histogram Equalization and Convolutional Neural Network
+              <h3 className="text-base font-semibold text-gray-900 dark:text-white
+                             group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition text-justify">
+                Fabric Defect Detection Using Histogram Equalization and
+                Convolutional Neural Network
               </h3>
-              <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                A novel clustering refinement technique that detects low-density
-                regions to dynamically split incorrectly merged clusters.
+              <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 text-justify">
+                A vision-based defect detection approach combining contrast
+                enhancement techniques with CNNs for automated textile quality inspection.
               </p>
             </div>
           </a>
 
-          {/* Research Card 2 */}
+          {/* Paper 2 */}
           <a
             href="/research/paper2.pdf"
             target="_blank"
             rel="noreferrer"
-            className="group rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 shadow-md hover:shadow-xl transition"
+            className="group rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800
+                       bg-gray-50 dark:bg-gray-900 shadow-sm hover:shadow-lg transition"
           >
-            <div className="h-52 bg-white overflow-hidden">
+            <div className="h-52 bg-white overflow-hidden border-b border-gray-200">
               <embed
                 src="/research/paper2.pdf"
                 type="application/pdf"
@@ -65,24 +67,27 @@ export default function Research() {
             </div>
 
             <div className="p-5">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition">
-                Recursive Density-Based Refinement of K-Means for Automatic Cluster Splitting
+              <h3 className="text-base font-semibold text-gray-900 dark:text-white
+                             group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition text-justify">
+                Recursive Density-Based Refinement of K-Means for Automatic
+                Cluster Splitting
               </h3>
-              <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                An experimental study proposing modifications to gradient updates
-                for improved convergence and training stability.
+              <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 text-justify">
+                A clustering refinement framework that detects low-density
+                regions to recursively split incorrectly merged K-Means clusters.
               </p>
             </div>
           </a>
 
-          {/* Research Card 3 */}
+          {/* Paper 3 */}
           <a
             href="/research/paper3.pdf"
             target="_blank"
             rel="noreferrer"
-            className="group rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 shadow-md hover:shadow-xl transition"
+            className="group rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800
+                       bg-gray-50 dark:bg-gray-900 shadow-sm hover:shadow-lg transition"
           >
-            <div className="h-52 bg-white overflow-hidden">
+            <div className="h-52 bg-white overflow-hidden border-b border-gray-200">
               <embed
                 src="/research/paper3.pdf"
                 type="application/pdf"
@@ -91,12 +96,14 @@ export default function Research() {
             </div>
 
             <div className="p-5">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition">
-                An Intelligent Irrigation Decision Support System using IoT and Weather Data
+              <h3 className="text-base font-semibold text-gray-900 dark:text-white
+                             group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition text-justify">
+                An Intelligent Irrigation Decision Support System Using IoT and
+                Weather Data
               </h3>
-              <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                A course research paper exploring AI and IoT-based systems to
-                reduce water consumption in industrial textile processes.
+              <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 text-justify">
+                A data-driven decision support system integrating IoT sensors
+                and weather data to optimize irrigation and water usage.
               </p>
             </div>
           </a>
