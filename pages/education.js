@@ -1,77 +1,88 @@
 export default function Education() {
   return (
-    <main className="min-h-screen px-6 md:px-12 py-20">
+    <main className="min-h-screen px-6 md:px-12 py-16">
+      <section className="max-w-5xl mx-auto">
 
-      {/* ================= Education Section ================= */}
-      <section className="max-w-6xl mx-auto">
-
-        {/* Section Header */}
-        <div className="max-w-3xl mb-12">
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
-            Education
-          </h1>
-          <p className="mt-4 text-gray-600 dark:text-gray-400 leading-relaxed">
-            My academic journey reflects a transition into Computer Science and Data
-            Science, driven by a strong foundation in mathematics and a growing interest
-            in machine learning, research, and real-world problem solving.
-          </p>
-        </div>
+        {/* Section Title */}
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-14">
+          Education
+        </h1>
 
         {/* Timeline */}
         <div className="relative border-l border-gray-300 dark:border-gray-700 ml-4 space-y-12">
 
           {/* MSc */}
-          <div className="relative pl-8">
+          <div className="relative pl-10">
             <span className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-indigo-600"></span>
 
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white">
-              Master of Science (MSc) in Computer Science & Engineering
+              Master of Science in Computer Science & Engineering
             </h2>
-
-            <p className="mt-1 text-gray-600 dark:text-gray-400">
-              Major in Data Science
+            <p className="text-gray-600 dark:text-gray-400">
+              Major: Data Science
             </p>
-
-            <p className="mt-1 text-sm text-gray-500 dark:text-gray-500">
-              United International University · 2023 – Present
+            <p className="text-gray-600 dark:text-gray-400">
+              United International University
             </p>
-
-            <p className="mt-3 text-sm text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">
-              Focused on machine learning, deep learning, advanced analytics, and
-              research-oriented coursework, with active involvement in academic
-              and applied research projects.
-            </p>
+            <div className="mt-2 flex flex-wrap gap-4 text-sm text-gray-500 dark:text-gray-400">
+              <span>Nov 2024 – Present</span>
+              <span>CGPA: 3.78</span>
+            </div>
           </div>
 
           {/* BSc */}
-          <div className="relative pl-8">
+          <div className="relative pl-10">
             <span className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-gray-400 dark:bg-gray-600"></span>
 
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white">
-              Bachelor of Science (BSc)
+              Bachelor of Science in Textile Engineering
             </h2>
-
-            <p className="mt-1 text-gray-600 dark:text-gray-400">
-              Wet Processing Engineering
+            <p className="text-gray-600 dark:text-gray-400">
+              Specialization: Wet Processing Engineering
             </p>
-
-            <p className="mt-1 text-sm text-gray-500 dark:text-gray-500">
-              Bangladesh University of Textiles · Graduated 2023
+            <p className="text-gray-600 dark:text-gray-400">
+              Bangladesh University of Textiles (BUTEX)
             </p>
+            <div className="mt-2 flex flex-wrap gap-4 text-sm text-gray-500 dark:text-gray-400">
+              <span>Jan 2018 – Oct 2023</span>
+              <span>CGPA: 3.34</span>
+            </div>
+          </div>
 
-            <p className="mt-3 text-sm text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">
-              Built strong analytical thinking and problem-solving skills, along
-              with a solid mathematical foundation that later supported my
-              transition into data science and machine learning.
+          {/* HSC */}
+          <div className="relative pl-10">
+            <span className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-gray-400 dark:bg-gray-600"></span>
+
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
+              Higher Secondary Certificate (HSC)
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400">
+              Science — B.A.F. Shaheen College
             </p>
+            <div className="mt-2 flex gap-4 text-sm text-gray-500 dark:text-gray-400">
+              <span>2017</span>
+              <span>GPA: 4.75</span>
+            </div>
+          </div>
+
+          {/* SSC */}
+          <div className="relative pl-10">
+            <span className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-gray-400 dark:bg-gray-600"></span>
+
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
+              Secondary School Certificate (SSC)
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400">
+              Science — Govt. Muslim High School
+            </p>
+            <div className="mt-2 flex gap-4 text-sm text-gray-500 dark:text-gray-400">
+              <span>2015</span>
+              <span>GPA: 5.00</span>
+            </div>
           </div>
 
         </div>
-        {/* ================= End Timeline ================= */}
-
       </section>
-      {/* ================= End Education Section ================= */}
-
     </main>
   );
 }
