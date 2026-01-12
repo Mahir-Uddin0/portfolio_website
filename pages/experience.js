@@ -8,10 +8,10 @@ export default function Experience() {
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
             Experience
           </h1>
-          <p className="mt-3 text-gray-600 dark:text-gray-400 max-w-2xl">
+          {/* <p className="mt-3 text-gray-600 dark:text-gray-400 max-w-2xl">
             A snapshot of my professional, academic, and applied experience across data science,
             industry, and teaching.
-          </p>
+          </p> */}
         </div>
 
         {/* Timeline */}
@@ -37,13 +37,16 @@ export default function Experience() {
             <span className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-gray-500"></span>
 
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Executive
+              Executive <span className="text-sm font-medium text-gray-500">(Full-time)</span>
             </h2>
             <p className="text-gray-700 dark:text-gray-300">
-              Epyllion Group · Full-time · On-site
+              Epyllion Group  · On-site
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-500">
-              May 2024 – Jul 2024 · Gazipur, Dhaka
+              May 2024 – Jul 2024
+            </p>
+            <p className="text-sm text-gray-500 dark:text-gray-500">
+              Gazipur, Dhaka
             </p>
           </div>
 
@@ -51,13 +54,16 @@ export default function Experience() {
             <span className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-gray-400"></span>
 
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Management Trainee
+              Management Trainee <span className="text-sm font-medium text-gray-500">(Full-time)</span>
             </h2>
             <p className="text-gray-700 dark:text-gray-300">
-              Epyllion Group · Full-time · On-site
+              Epyllion Group · On-site
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-500">
-              Nov 2023 – Apr 2024 · Gazipur, Dhaka
+              Nov 2023 – Apr 2024
+            </p>
+            <p className="text-sm text-gray-500 dark:text-gray-500">
+              Gazipur, Dhaka
             </p>
           </div>
 
@@ -74,6 +80,9 @@ export default function Experience() {
             <p className="text-sm text-gray-500 dark:text-gray-500">
               Aug 2018 – Sep 2022
             </p>
+            <p className="text-sm text-gray-500 dark:text-gray-500">
+              Farmgate, Dhaka
+            </p>
           </div>
 
           {/* UCC */}
@@ -88,6 +97,9 @@ export default function Experience() {
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-500">
               Apr 2019 – Aug 2022
+            </p>
+            <p className="text-sm text-gray-500 dark:text-gray-500">
+              Farmgate, Dhaka
             </p>
           </div>
 
