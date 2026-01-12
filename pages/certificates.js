@@ -166,46 +166,6 @@ const specializations = [
       },
     ],
   },
-  // {
-  //   title: "Deep Learning Specialization",
-  //   provider: "Coursera · DeepLearning.AI",
-  //   pdf: "/certificates/dl_specialization.pdf",
-  //   credential: "https://coursera.org/verify/example",
-  //   courses: [
-  //     {
-  //       name: "Neural Networks and Deep Learning",
-  //       pdf: "/certificates/dl_nn.pdf",
-  //     },
-  //     {
-  //       name: "Improving Deep Neural Networks",
-  //       pdf: "/certificates/dl_optimization.pdf",
-  //     },
-  //     {
-  //       name: "Structuring Machine Learning Projects",
-  //       pdf: "/certificates/dl_structuring.pdf",
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: "Deep Learning Specialization",
-  //   provider: "Coursera · DeepLearning.AI",
-  //   pdf: "/certificates/dl_specialization.pdf",
-  //   credential: "https://coursera.org/verify/example",
-  //   courses: [
-  //     {
-  //       name: "Neural Networks and Deep Learning",
-  //       pdf: "/certificates/dl_nn.pdf",
-  //     },
-  //     {
-  //       name: "Improving Deep Neural Networks",
-  //       pdf: "/certificates/dl_optimization.pdf",
-  //     },
-  //     {
-  //       name: "Structuring Machine Learning Projects",
-  //       pdf: "/certificates/dl_structuring.pdf",
-  //     },
-  //   ],
-  // },
 ];
 
 const individualCertificates = [
@@ -229,16 +189,16 @@ const individualCertificates = [
   },
   {
     title: "Neural Networks and Deep Learning",
-    provider: "University of California · Coursera",
+    provider: "IBM · Coursera",
     pdf: "/certificates/Individual/1. Neural Networks.pdf",
     credential: "https://coursera.org/verify/example",
   },
-  // {
-  //   title: "Databases and SQL for Data Science with Python",
-  //   provider: "University of California · Coursera",
-  //   pdf: "/certificates/Individual/IOT and Embedded Systems.pdf",
-  //   credential: "https://coursera.org/verify/example",
-  // },
+  {
+    title: "Introduction to Internet of Things and Embedded Systems",
+    provider: "University of California · Coursera",
+    pdf: "/certificates/Individual/IOT.pdf",
+    credential: "https://coursera.org/verify/example",
+  },
 ];
 
 export default function CertificatesSection() {
