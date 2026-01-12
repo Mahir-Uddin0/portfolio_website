@@ -227,6 +227,18 @@ const individualCertificates = [
     pdf: "/certificates/Individual/Databases and SQL for Data Science with Python.pdf",
     credential: "https://coursera.org/verify/example",
   },
+  {
+    title: "Neural Networks and Deep Learning",
+    provider: "University of California · Coursera",
+    pdf: "/certificates/Individual/1. Neural Networks.pdf",
+    credential: "https://coursera.org/verify/example",
+  },
+  // {
+  //   title: "Databases and SQL for Data Science with Python",
+  //   provider: "University of California · Coursera",
+  //   pdf: "/certificates/Individual/IOT and Embedded Systems.pdf",
+  //   credential: "https://coursera.org/verify/example",
+  // },
 ];
 
 export default function CertificatesSection() {
