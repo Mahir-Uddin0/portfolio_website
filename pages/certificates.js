@@ -189,7 +189,7 @@ const individualCertificates = [
   },
   {
     title: "Neural Networks and Deep Learning",
-    provider: "IBM · Coursera",
+    provider: "DeepLearning.AI · Coursera",
     pdf: "/certificates/Individual/1. Neural Networks.pdf",
     credential: "https://coursera.org/verify/example",
   },
