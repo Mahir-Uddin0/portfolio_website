@@ -38,7 +38,7 @@ export default function Home() {
 
           {/* Credentials */}
           <p className="text-lg md:text-1.5xl text-gray-500 dark:text-gray-400 font-medium">
-            Codeforces 1242 <span className="mx-1">·</span> IYMC Gold Medalist
+            Codeforces 1247 <span className="mx-1">·</span> IYMC Gold Medalist
           </p>
 
           {/* Profile Links */}
