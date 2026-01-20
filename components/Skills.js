@@ -17,7 +17,7 @@ export default function Skills() {
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/dl.png" alt="DL" width={24} height={24} className="dark:invert"/> DL</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/nlp.png" alt="NLP" width={24} height={24} className="dark:invert"/> NLP</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/cv.png" alt="CV" width={24} height={24} className="dark:invert"/> CV</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/rl.png" alt="RL" width={24} height={24}/> RL</span>
+            {/* <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/rl.png" alt="RL" width={24} height={24}/> RL</span> */}
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/ai.png" alt="AI" width={24} height={24} className="dark:invert"/> AI</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/chatgpt.svg" alt="Gen AI" width={22} height={22} className="dark:invert"/> Gen AI</span>
           </div>
@@ -65,35 +65,9 @@ export default function Skills() {
         </div>
 
       </div>
+      <div className="mt-10 text-center text-gray-600 dark:text-gray-400">
+        <em>I am also familiar with Big Data, Data Engineering, Reinforcement Learning and IoT</em>
+      </div>
     </section>
   );
 }
-// export default function Skills() {
-//   const categories = [
-//     { title: 'ML & AI', items: ['ML','DL','NLP','CV','Gen AI','AI'] },
-//     { title: 'Languages', items: ['Python','SQL','C','C++','JavaScript','HTML','CSS'] },
-//     { title: 'Libraries', items: ['TensorFlow','PyTorch','NumPy','Pandas','Matplotlib','Scikit-learn'] },
-//     { title: 'Tools', items: ['Git','Linux','Excel','Word','Docker','VS Code'] },
-//   ]
-
-//   return (
-//     <main className="max-w-6xl mx-auto px-6 py-16">
-//       <h2 className="text-3xl font-semibold">Skills & Technologies</h2>
-//       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
-//         {categories.map(cat => (
-//           <div key={cat.title}>
-//             <h3 className="font-medium text-lg">{cat.title}</h3>
-//             <div className="mt-3 flex flex-wrap gap-3">
-//               {cat.items.map(i => (
-//                 <div key={i} className="flex items-center gap-2 bg-white border rounded-md px-3 py-1 shadow-sm">
-//                   {/* optional small icon here */}
-//                   <span className="text-sm text-gray-700">{i}</span>
-//                 </div>
-//               ))}
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-//     </main>
-//   )
-// }
