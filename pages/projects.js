@@ -22,41 +22,8 @@ export default function Projects() {
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-          {/* Project Card */}
-          <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
-            
-            <div>
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                Uber Fare Prediction with Data Cleaning & EDA
-              </h3>
 
-              <p className="mt-3 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                Performed rigorous data cleaning and exploratory data analysis to identify key factors influencing Uber fares. Built and refined regression models with regularization. Validated insights and model performance using error analysis and statistical tests.
-              </p>
-
-              {/* Tech Stack */}
-              <div className="mt-4 flex flex-wrap gap-2">
-                <span className="skill-pill">PyTorch</span>
-                <span className="skill-pill">CNN</span>
-                <span className="skill-pill">Computer Vision</span>
-              </div>
-            </div>
-
-            {/* GitHub */}
-            <div className="mt-6">
-              <a
-                href="https://github.com/yourusername/fabric-defect-detection"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline"
-              >
-                <FaGithub className="text-lg" />
-                View Code
-              </a>
-            </div>
-          </div>
-
-          {/* Project Card */}
+          {/* 1. Project Card */}
           <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
             
             <div>
@@ -88,7 +55,7 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* Project Card */}
+          {/* 2. Project Card */}
           <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
             
             <div>
@@ -122,7 +89,78 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* Project Card */}
+          {/* 3. project card */}
+          <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+            
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                Density-Aware Dynamic Cluster Splitting Algorithm
+              </h3>
+
+              <p className="mt-3 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                Designed a density-aware post-processing algorithm that automatically detects and 
+                splits erroneously merged k-means clusters. The method recursively refines clusters 
+                using spatial density analysis, removing dependency on correct k initialization and 
+                improving robustness for complex, overlapping data distributions.              </p>
+
+              {/* Tech Stack */}
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="skill-pill">PyTorch</span>
+                <span className="skill-pill">CNN</span>
+                <span className="skill-pill">Computer Vision</span>
+              </div>
+            </div>
+
+            {/* GitHub */}
+            <div className="mt-6">
+              <a
+                href="https://github.com/Mahir-Uddin0/density-aware-cluster-splitting"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline"
+              >
+                <FaGithub className="text-lg" />
+                View Code
+              </a>
+            </div>
+          </div>
+
+          {/* 4. Project Card */}
+          <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+            
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                Uber Fare Prediction with Data Cleaning & EDA
+              </h3>
+
+              <p className="mt-3 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                Performed rigorous data cleaning and exploratory data analysis to identify key factors influencing Uber fares. Built and refined regression models with regularization. Validated insights and model performance using error analysis and statistical tests.
+              </p>
+
+              {/* Tech Stack */}
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="skill-pill">PyTorch</span>
+                <span className="skill-pill">CNN</span>
+                <span className="skill-pill">Computer Vision</span>
+              </div>
+            </div>
+
+            {/* GitHub */}
+            <div className="mt-6">
+              <a
+                href="https://github.com/Mahir-Uddin0/Uber-Fare-Prediction"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline"
+              >
+                <FaGithub className="text-lg" />
+                View Code
+              </a>
+            </div>
+          </div>
+
+
+          {/* 5. Project Card */}
           <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
             
             <div>
@@ -146,7 +184,7 @@ export default function Projects() {
 
             <div className="mt-6">
               <a
-                href="https://github.com/yourusername/spam-classification"
+                href="https://github.com/Mahir-Uddin0/stock-trend-identification-using-ANFIS"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline"
@@ -157,23 +195,58 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* Project Card */}
-          {/* <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+          {/* 6. Project Card */}
+          <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
             
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                Spam Email Classification
+                Technical Analysis and Predictive Insights on Stock Returns
               </h3>
 
               <p className="mt-3 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                Implemented classical machine learning models to classify spam emails,
-                focusing on feature engineering and model evaluation.
+                Developed a Python-based system to compute key technical indicators (SMA, EMA, RSI, MACD, Volume) 
+                and analyze stock return distributions under custom conditions. Enables data-driven insights for 
+                identifying high-probability bullish scenarios for stock price.
               </p>
 
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="skill-pill">Scikit-learn</span>
-                <span className="skill-pill">NLP</span>
-                <span className="skill-pill">Naive Bayes</span>
+                <span className="skill-pill">Matplotlib</span>
+                <span className="skill-pill">TA</span>
+              </div>
+            </div>
+
+            <div className="mt-6">
+              <a
+                href="https://github.com/Mahir-Uddin0/stock-return-analysis/tree/main"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline"
+              >
+                <FaGithub className="text-lg" />
+                View Code
+              </a>
+            </div>
+          </div>
+
+          {/* 7. Project Card */}
+          <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+            
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                Intelligent Crime Solver using Prolog
+              </h3>
+
+              <p className="mt-3 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                Built a logic-based AI system using Knowledge Representation & Reasoning to investigate 
+                complex murder scenarios. The model evaluates motives, evidence, contradictions, and 
+                cover-ups to identify the killer(s), demonstrating advanced logical deduction, structured 
+                reasoning, and AI-driven problem solving.
+              </p>
+
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="skill-pill">Prolog</span>
+                <span className="skill-pill">Expert Systems</span>
               </div>
             </div>
 
@@ -189,39 +262,6 @@ export default function Projects() {
               </a>
             </div>
           </div>
-
-          {/* Project Card */}
-          {/* <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
-            
-            <div>
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                Spam Email Classification
-              </h3>
-
-              <p className="mt-3 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                Implemented classical machine learning models to classify spam emails,
-                focusing on feature engineering and model evaluation.
-              </p>
-
-              <div className="mt-4 flex flex-wrap gap-2">
-                <span className="skill-pill">Scikit-learn</span>
-                <span className="skill-pill">NLP</span>
-                <span className="skill-pill">Naive Bayes</span>
-              </div>
-            </div>
-
-            <div className="mt-6">
-              <a
-                href="https://github.com/yourusername/spam-classification"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline"
-              >
-                <FaGithub className="text-lg" />
-                View Code
-              </a>
-            </div>
-          </div> */}
 
         </div>
 
