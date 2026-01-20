@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Skills from "../components/Skills";
+import Contact from "../components/contact";
 import {
   FaLinkedin,
   FaGithub,
 } from "react-icons/fa";
 import { SiKaggle, SiCoursera, SiCodeforces, SiLeetcode } from "react-icons/si";
+// import Contact from "./contact";
 
 
 export default function Home() {
@@ -38,27 +40,27 @@ export default function Home() {
 
           {/* Credentials */}
           <p className="text-lg md:text-1.5xl text-gray-500 dark:text-gray-400 font-medium">
-            Codeforces 1247 <span className="mx-1">·</span> IYMC Gold Medalist
+            Codeforces 1270 <span className="mx-1">·</span> IYMC Gold Medalist
           </p>
 
           {/* Profile Links */}
           <div className="flex justify-center md:justify-start gap-5 text-gray-600 dark:text-gray-300 text-2xl pt-2">
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+            <a href="https://www.linkedin.com/in/mahir-uddin-b1aa1a156/" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
               <FaLinkedin />
             </a>
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+            <a href="https://github.com/Mahir-Uddin0" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
               <FaGithub />
             </a>
-            <a href="https://codeforces.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+            <a href="https://codeforces.com/profile/Mahir_Uddin" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
               <SiCodeforces />
             </a>
-            <a href="https://leetcode.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+            <a href="https://leetcode.com/u/oqoA8jMD6H/" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
               <SiLeetcode />
             </a>
-            <a href="https://kaggle.com" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+            <a href="https://www.kaggle.com/mahiruddin" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
               <SiKaggle />
             </a>
-            <a href="https://coursera.org" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+            <a href="https://www.coursera.org/learner/mahir-uddin-1309" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
               <SiCoursera />
             </a>
           </div>
@@ -92,6 +94,7 @@ export default function Home() {
 
       {/* Skills Section */}
       <Skills />
+      <Contact />
     </main>
   );
 }
