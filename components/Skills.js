@@ -66,7 +66,7 @@ export default function Skills() {
 
       </div>
       <div className="mt-10 text-center text-gray-600 dark:text-gray-400">
-        <em>I am also familiar with Big Data, Data Engineering, Reinforcement Learning and IoT</em>
+        <em>I am also familiar with Big Data, Data Engineering, Cloud Computing, Reinforcement Learning and IoT.</em>
       </div>
     </section>
   );
