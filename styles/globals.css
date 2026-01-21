@@ -10,3 +10,9 @@ html, body, #__next {
   font-family: sans-serif; /* optional default font */
 }
 
+.skill-pill {
+  @apply px-3 py-1 text-sm rounded-full font-medium
+         bg-indigo-100 dark:bg-indigo-400/30 
+         text-gray-700 dark:text-gray-300;
+}
+
