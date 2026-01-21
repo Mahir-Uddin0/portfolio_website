@@ -12,7 +12,7 @@ export default function Projects() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
             Projects
           </h1>
-          <p className="mt-4 text-gray-600 dark:text-gray-400 leading-relaxed">
+          <p className="mt-4 text-gray-600 dark:text-gray-400 text-justify leading-relaxed">
             A selection of hands-on projects focused on Machine Learning, Deep Learning,
             and applied AI. Each project emphasizes problem formulation, modeling,
             and practical implementation. Source code is available on GitHub.

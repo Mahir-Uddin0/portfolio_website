@@ -6,7 +6,7 @@ import { FaProjectDiagram, FaLanguage, FaRegImage, FaCamera } from "react-icons/
 
 export default function Skills() {
   return (
-    <section className="max-w-6xl mx-auto px-5 py-16">
+    <section className="max-w-7xl mx-auto px-5 py-16">
       <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-10 text-center">Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* AI/ML */}
@@ -44,8 +44,8 @@ export default function Skills() {
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiNumpy className="text-blue-600 text-xl" /> Numpy</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiPandas className="text-green-600 text-xl" /> Pandas</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/matplotlib.svg" alt="Matplotlib" width={24} height={24}/> Matplotlib</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/seaborn.svg" alt="Seaborn" width={24} height={24}/> Seaborn</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/scikit-learn.svg" alt="Scikit-Learn" width={24} height={24}/> Scikit-Learn</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/seaborn.svg" alt="Seaborn" width={24} height={24}/> Seaborn</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiTensorflow className="text-orange-500 text-xl" /> TensorFlow</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiPytorch className="text-red-600 text-xl" /> PyTorch</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/langchain.svg" alt="LangChain" width={36} height={36} className="dark:invert" /> Langchain</span>
@@ -66,7 +66,7 @@ export default function Skills() {
 
       </div>
       <div className="mt-10 text-center text-gray-600 dark:text-gray-400">
-        <em>I am also familiar with Big Data, Data Engineering, Cloud Computing, Reinforcement Learning and IoT.</em>
+        <em>I am also knowledgeable about Big Data, Data Engineering, Cloud Computing, Reinforcement Learning and IoT.</em>
       </div>
     </section>
   );

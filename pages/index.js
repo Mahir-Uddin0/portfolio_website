@@ -11,8 +11,9 @@ import { SiKaggle, SiCoursera, SiCodeforces, SiLeetcode } from "react-icons/si";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center px-6 md:px-12">
-      <section className="mt-2 max-w-5xl mx-auto flex flex-col md:flex-row items-start gap-12">
+    <main className="min-h-screen flex flex-col">
+      {/* <section className="mt-2 max-w-5xl mx-auto flex flex-col md:flex-row items-start gap-12"> */}
+      <section className="mt-6 w-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-start gap-12">
 
         {/* Left: Profile Image */}
         <div className="flex justify-center md:justify-start">
