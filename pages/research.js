@@ -69,12 +69,11 @@ export default function Research() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-gray-900 dark:text-white
                              group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition text-justify">
-                Recursive Density-Based Refinement of K-Means for Automatic
-                Cluster Splitting
+                Automated Density-Based Splitting of Merged Clusters
               </h3>
               <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 text-justify">
                 A clustering refinement framework that detects low-density
-                regions to recursively split incorrectly merged K-Means clusters.
+                regions to recursively split incorrectly merged clusters.
               </p>
             </div>
           </a>
