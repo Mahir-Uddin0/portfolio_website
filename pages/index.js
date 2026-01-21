@@ -45,7 +45,7 @@ export default function Home() {
             Data Scientist <span className="text-gray-400 dark:text-gray-500">|</span> Machine Learning & Gen AI
           </h2>
           <p className="text-lg md:text-1.5xl text-gray-500 dark:text-gray-400 font-medium">
-            Codeforces 1270 <span className="mx-1">·</span> IYMC Gold Medalist
+            Codeforces 1270 <span className="mx-1">·</span> IYMC 2025 Finalist
           </p>
 
           {/* Profile Links */}
@@ -78,9 +78,9 @@ export default function Home() {
             problem-solving. I’m currently working on an ADB-funded project that uses AI and IoT to reduce water consumption
             in textile dyeing factories. Beyond this, I’ve worked on various projects ranging from fabric defect detection
             using CNNs to fine-tuning models and building RAG applications. I’m currently doing two research works. One is
-            inventing a noble clustering algorithm based on density and the second one is optimization of backpropagation
-            in neural networks. Additionally, I was a Mathematics lecturer at Sunrise Coaching Centre and UCC. Apart from
-            this, I bring discipline, reliability and a “get things done” attitude with a strong analytical mindset.
+            developing a noble clustering algorithm based on density and the second one is modification of ADAM optimizer 
+            to reduce oscillation and faster convergence in backpropagation. Additionally, I was a Mathematics lecturer at 
+            Sunrise Coaching Centre and UCC. Apart from this, I bring discipline, reliability and a “get things done” attitude with a strong analytical mindset.
           </p>
 
           {/* Resume Button */}
