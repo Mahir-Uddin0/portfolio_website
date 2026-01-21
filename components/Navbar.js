@@ -49,7 +49,7 @@ export default function Navbar() {
     { href: "/", label: "Home" },
     { href: "/projects", label: "Projects" },
     { href: "/research", label: "Research" },
-    { href: "/certificates", label: "Certificates" },
+    { href: "/certificates", label: "Certifications" },
     { href: "/education", label: "Education" },
     { href: "/experience", label: "Experience" },
   ];

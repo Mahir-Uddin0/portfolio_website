@@ -211,7 +211,7 @@ export default function CertificatesSection() {
         {/* ===================== HEADER ===================== */}
         <div className="mb-14">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-            Certificates & Online Courses
+            Professional Certifications
           </h2>
           <p className="mt-3 max-w-3xl text-gray-600 dark:text-gray-400 text-sm md:text-base leading-relaxed">
             I have completed multiple online specializations and individual
