@@ -1,6 +1,6 @@
 export default function Research() {
   return (
-    <main className="min-h-screen bg-white dark:bg-black">
+    <main className="min-h-screen bg-slate-100 dark:bg-black">
 
       <section className="max-w-6xl mx-auto px-6 md:px-12 py-20">
 
@@ -29,7 +29,7 @@ export default function Research() {
                        bg-gray-50 dark:bg-gray-900 shadow-sm hover:shadow-lg transition"
           >
             {/* PDF Preview (always white) */}
-            <div className="h-52 bg-white overflow-hidden border-b border-gray-200">
+            <div className="h-52 bg-neutral-50 overflow-hidden border-b border-gray-200">
               <embed
                 src="/research/paper1.pdf"
                 type="application/pdf"
@@ -58,7 +58,7 @@ export default function Research() {
             className="group rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800
                        bg-gray-50 dark:bg-gray-900 shadow-sm hover:shadow-lg transition"
           >
-            <div className="h-52 bg-white overflow-hidden border-b border-gray-200">
+            <div className="h-52 bg-neutral-50 overflow-hidden border-b border-gray-200">
               <embed
                 src="/research/paper2.pdf"
                 type="application/pdf"
@@ -87,7 +87,7 @@ export default function Research() {
             className="group rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800
                        bg-gray-50 dark:bg-gray-900 shadow-sm hover:shadow-lg transition"
           >
-            <div className="h-52 bg-white overflow-hidden border-b border-gray-200">
+            <div className="h-52 bg-neutral-50 overflow-hidden border-b border-gray-200">
               <embed
                 src="/research/paper3.pdf"
                 type="application/pdf"

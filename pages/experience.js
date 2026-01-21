@@ -1,6 +1,6 @@
 export default function Experience() {
   return (
-    <main className="min-h-screen px-6 md:px-12 py-16 bg-white dark:bg-gray-900">
+    <main className="min-h-screen px-6 md:px-12 py-16 bg-slate-100 dark:bg-gray-900">
       <section className="max-w-4xl mx-auto">
 
         {/* Header */}

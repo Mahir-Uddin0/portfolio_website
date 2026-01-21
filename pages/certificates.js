@@ -205,7 +205,7 @@ export default function CertificatesSection() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <section className="bg-white dark:bg-black py-20 px-6 md:px-12">
+    <section className="bg-slate-100 dark:bg-black py-20 px-6 md:px-12">
       <div className="max-w-6xl mx-auto">
 
         {/* ===================== HEADER ===================== */}
@@ -231,7 +231,7 @@ export default function CertificatesSection() {
             {specializations.map((cert, index) => (
               <div
                 key={index}
-                className="rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden bg-gray-50 dark:bg-neutral-900"
+                className="rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden bg-neutral-50 dark:bg-neutral-900"
               >
                 {/* PDF Preview */}
                 <a href={cert.pdf} target="_blank" rel="noreferrer">
@@ -323,7 +323,7 @@ export default function CertificatesSection() {
             {individualCertificates.map((cert, index) => (
               <div
                 key={index}
-                className="rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden bg-gray-50 dark:bg-neutral-900"
+                className="rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden bg-neutral-50 dark:bg-neutral-900"
               >
                 {/* PDF Preview */}
                 <a href={cert.pdf} target="_blank" rel="noreferrer">

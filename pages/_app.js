@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+    <div className="min-h-screen bg-slate-100 dark:bg-slate-900 transition-colors duration-300">
       <Navbar />
 
       <AnimatePresence mode="wait" initial={false}>

@@ -1,6 +1,6 @@
 export default function Education() {
   return (
-    <main className="min-h-screen px-6 md:px-12 py-16">
+    <main className="min-h-screen px-6 md:px-12 py-16 bg-slate-900">
       <section className="max-w-5xl mx-auto">
 
         {/* Section Title */}

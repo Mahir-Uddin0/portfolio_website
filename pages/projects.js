@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Projects() {
   return (
-    <main className="min-h-screen px-6 md:px-12 py-20 bg-white dark:bg-black">
+    <main className="min-h-screen px-6 md:px-12 py-20 bg-slate-100 dark:bg-black">
 
       {/* Page Container */}
       <section className="max-w-6xl mx-auto">
@@ -24,7 +24,7 @@ export default function Projects() {
 
 
           {/* 1. Project Card */}
-          <div className="bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+          <div className="bg-neutral-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
 
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
@@ -61,7 +61,7 @@ export default function Projects() {
           </div>
 
           {/* 3. Project Card */}
-          <div className="bg-gray-100  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+          <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
 
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
@@ -98,7 +98,7 @@ export default function Projects() {
           </div>
 
           {/* 3. Project Card */}
-          <div className="bg-gray-100  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+          <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
 
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
@@ -133,7 +133,7 @@ export default function Projects() {
           </div>
 
           {/* 4. Project Card */}
-          <div className="bg-gray-100  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+          <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
 
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
@@ -169,7 +169,7 @@ export default function Projects() {
           </div>
 
           {/* 5. Project Card */}
-          <div className="bg-gray-100  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+          <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
 
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
@@ -209,7 +209,7 @@ export default function Projects() {
 
 
           {/* 6. Project Card */}
-          <div className="bg-gray-100  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+          <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
 
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
@@ -244,7 +244,7 @@ export default function Projects() {
           </div>
 
           {/* 7. Project Card */}
-          <div className="bg-gray-100  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+          <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
 
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
