@@ -6,16 +6,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function Navbar() {
-  const routes = [
-    { href: "/", label: "Home" },
-    { href: "/projects", label: "Projects" },
-    { href: "/research", label: "Research" },
-    { href: "/certificates", label: "Certificates" },
-    { href: "/education", label: "Education" },
-    { href: "/experience", label: "Experience" },
-    { href: "/#contact", label: "Contact" },
-  ];
-
   const router = useRouter();
   const [darkMode, setDarkMode] = useState(false);
 
@@ -44,6 +34,26 @@ export default function Navbar() {
     }
   };
 
+  const handleContactClick = () => {
+    if (router.pathname !== "/") {
+      // Navigate to home page with query param to jump to contact
+      router.push("/?scrollTo=contact");
+    } else {
+      // Smooth scroll on home page
+      const el = document.getElementById("contact");
+      el?.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const routes = [
+    { href: "/", label: "Home" },
+    { href: "/projects", label: "Projects" },
+    { href: "/research", label: "Research" },
+    { href: "/certificates", label: "Certificates" },
+    { href: "/education", label: "Education" },
+    { href: "/experience", label: "Experience" },
+  ];
+
   return (
     <nav className="bg-white dark:bg-gray-900 shadow-sm sticky top-0 z-40 transition-colors">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -68,6 +78,12 @@ export default function Navbar() {
                 {r.label}
               </Link>
             ))}
+            <button
+              onClick={handleContactClick}
+              className="py-2 px-3 rounded-md text-gray-700 dark:text-gray-300 hover:text-indigo-600 transition"
+            >
+              Contact
+            </button>
           </div>
 
           {/* Right: Dark mode toggle */}

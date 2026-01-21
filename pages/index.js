@@ -1,4 +1,5 @@
-import Image from "next/image";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 import Skills from "../components/Skills";
 import Contact from "../components/contact";
 import {
@@ -6,15 +7,24 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { SiKaggle, SiCoursera, SiCodeforces, SiLeetcode } from "react-icons/si";
-// import Contact from "./contact";
-
 
 export default function Home() {
+  const router = useRouter();
+
+  useEffect(() => {
+    // Scroll to contact section if query param exists
+    if (router.query.scrollTo === "contact") {
+      const el = document.getElementById("contact");
+      if (el) {
+        // Scroll instantly for cross-page jump
+        el.scrollIntoView({ behavior: "auto" });
+      }
+    }
+  }, [router.query]);
+
   return (
     <main className="min-h-screen flex flex-col">
-      {/* <section className="mt-2 max-w-5xl mx-auto flex flex-col md:flex-row items-start gap-12"> */}
       <section className="mt-6 w-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-start gap-12">
-
         {/* Left: Profile Image */}
         <div className="flex justify-center md:justify-start">
           <div className="w-48 h-48 md:w-72 md:h-72 rounded-full overflow-hidden shadow-lg mx-auto md:mx-0">
@@ -28,18 +38,12 @@ export default function Home() {
 
         {/* Right: About Content */}
         <div className="space-y-4 text-center md:text-left">
-
-          {/* Name */}
           <h1 className="text-5xl md:text-4xl font-bold text-gray-900 dark:text-white tracking-tight">
             Md. Mahir Uddin
           </h1>
-
-          {/* Title */}
           <h2 className="text-lg md:text-2xl font-semibold text-gray-500 dark:text-gray-300">
             Data Scientist <span className="text-gray-400 dark:text-gray-500">|</span> Machine Learning & Gen AI
           </h2>
-
-          {/* Credentials */}
           <p className="text-lg md:text-1.5xl text-gray-500 dark:text-gray-400 font-medium">
             Codeforces 1270 <span className="mx-1">·</span> IYMC Gold Medalist
           </p>
@@ -89,7 +93,6 @@ export default function Home() {
               Download Resume
             </a>
           </div>
-
         </div>
       </section>
 
