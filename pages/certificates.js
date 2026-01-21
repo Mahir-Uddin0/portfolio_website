@@ -6,7 +6,7 @@ const specializations = [
     title: "Machine Learning Specialization",
     provider: "Stanford · Coursera",
     pdf: "/certificates/ML Specialization/Main.pdf",
-    credential: "https://coursera.org/verify/example",
+    credential: "https://www.coursera.org/account/accomplishments/specialization/O0H6R0L5ZZ9C",
     courses: [
       {
         name: "1. Supervised Machine Learning: Regression and Classification",
@@ -78,7 +78,7 @@ const specializations = [
     title: "IBM Gen AI Engineering Professional Certificate",
     provider: "IBM · Coursera",
     pdf: "/certificates/IBN Gen AI/Main.pdf",
-    credential: "https://coursera.org/verify/example",
+    credential: "https://www.coursera.org/account/accomplishments/specialization/813O2K9GWRMP",
     courses: [
       {
         name: "1. Intro to Artificial Intelligence (AI)",
@@ -150,7 +150,7 @@ const specializations = [
     title: "Mathematics for Machine Learning and Data Science Specialization",
     provider: "DeepLearning.AI · Coursera",
     pdf: "/certificates/Math for DS and ML/Main.pdf",
-    credential: "https://coursera.org/verify/example",
+    credential: "https://www.coursera.org/account/accomplishments/specialization/FTMLTKS3TTG6",
     courses: [
       {
         name: "1. Linear Algebra for Machine Learning and Data Science",
@@ -173,31 +173,31 @@ const individualCertificates = [
     title: "Developing AI Applications with Python and Flask",
     provider: "IBM · Coursera",
     pdf: "/certificates/Individual/AI App with Python & Flask.pdf",
-    credential: "https://coursera.org/verify/example",
+    credential: "https://www.coursera.org/account/accomplishments/records/ANFGVCATU9DG",
   },
   {
     title: "Introduction to Big Data with Spark and Hadoop",
     provider: "IBM · Coursera",
     pdf: "/certificates/Individual/Intro to BIg Data with Spark and Hadoop.pdf",
-    credential: "https://coursera.org/verify/example",
+    credential: "https://www.coursera.org/account/accomplishments/records/JW76EUIA4AHD",
   },
   {
     title: "Databases and SQL for Data Science with Python",
     provider: "IBM · Coursera",
     pdf: "/certificates/Individual/Databases and SQL for Data Science with Python.pdf",
-    credential: "https://coursera.org/verify/example",
+    credential: "https://www.coursera.org/account/accomplishments/records/O6SI0ZR7QIF3",
   },
   {
     title: "Neural Networks and Deep Learning",
     provider: "DeepLearning.AI · Coursera",
     pdf: "/certificates/Individual/1. Neural Networks.pdf",
-    credential: "https://coursera.org/verify/example",
+    credential: "https://www.coursera.org/account/accomplishments/records/5BM7ZAGRQDLT",
   },
   {
     title: "Introduction to Internet of Things and Embedded Systems",
     provider: "University of California · Coursera",
     pdf: "/certificates/Individual/IOT.pdf",
-    credential: "https://coursera.org/verify/example",
+    credential: "https://www.coursera.org/account/accomplishments/records/W796GN5XHYDW",
   },
 ];
 
