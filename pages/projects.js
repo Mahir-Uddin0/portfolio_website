@@ -169,10 +169,10 @@ export default function Projects() {
               </h3>
 
               <p className="mt-3 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                This project explores the application of an Adaptive Neuro-Fuzzy Inference System (ANFIS) to predict 
-                short-term stock market trends using technical indicators such as RSI, MACD, and Volume Ratios. By 
-                combining the interpretability of fuzzy logic with the learning capability of neural networks, the 
-                model learns fuzzy rules that capture the non-linear patterns in stock price movements.
+                This project applies an Adaptive Neuro-Fuzzy Inference System (ANFIS) to predict short-term 
+                stock market trends using technical indicators such as RSI, MACD, and Volume Ratios. By 
+                integrating fuzzy logic with neural network learning, the model automatically learns fuzzy 
+                rules that capture non-linear patterns in stock price movements.
               </p>
 
               <div className="mt-4 flex flex-wrap gap-2">
@@ -252,7 +252,7 @@ export default function Projects() {
 
             <div className="mt-6">
               <a
-                href="https://github.com/yourusername/spam-classification"
+                href="https://github.com/Mahir-Uddin0/prolog-knowledge-based-crime-solver/tree/main"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline"
