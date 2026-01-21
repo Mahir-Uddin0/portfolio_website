@@ -1,6 +1,6 @@
 export default function Research() {
   return (
-    <main className="min-h-screen bg-slate-100 dark:bg-black">
+    <main className="min-h-screen bg-slate-100 dark:bg-neutral-950">
 
       <section className="max-w-6xl mx-auto px-6 md:px-12 py-20">
 

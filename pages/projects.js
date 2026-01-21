@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Projects() {
   return (
-    <main className="min-h-screen px-6 md:px-12 py-20 bg-slate-100 dark:bg-black">
+    <main className="min-h-screen px-6 md:px-12 py-20 bg-slate-100 dark:bg-neutral-950">
 
       {/* Page Container */}
       <section className="max-w-6xl mx-auto">

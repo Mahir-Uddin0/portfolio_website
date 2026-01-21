@@ -205,7 +205,7 @@ export default function CertificatesSection() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <section className="bg-slate-100 dark:bg-black py-20 px-6 md:px-12">
+    <section className="bg-slate-100 dark:bg-neutral-950 py-20 px-6 md:px-12">
       <div className="max-w-6xl mx-auto">
 
         {/* ===================== HEADER ===================== */}
