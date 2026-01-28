@@ -18,7 +18,7 @@ export default function Experience() {
             <span className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-indigo-600"></span>
 
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
-              Data Scientist <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">(Part-time)</span>
+              Research Engineer <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">(Part-time)</span>
             </h2>
             <p className="text-gray-700 dark:text-gray-300">
               ADB-Funded AI & IoT Project
