@@ -45,7 +45,7 @@ export default function Home() {
             Data Scientist <span className="text-gray-400 dark:text-gray-500">|</span> Machine Learning & Gen AI
           </h2>
           <p className="text-lg md:text-1.5xl text-gray-500 dark:text-gray-400 font-medium">
-            Codeforces 1270 <span className="mx-1">·</span> IYMC 2025 Finalist
+            Codeforces 1274 <span className="mx-1">·</span> IYMC 2025 Finalist
           </p>
 
           {/* Profile Links */}
