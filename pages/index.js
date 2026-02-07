@@ -86,7 +86,7 @@ export default function Home() {
           {/* Resume Button */}
           <div className="pt-4">
             <a
-              href="/resume/CV.pdf"
+              href="/resume/Resume.pdf"
               download
               className="inline-block px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 dark:hover:bg-indigo-500 transition"
             >
