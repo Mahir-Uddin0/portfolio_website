@@ -45,7 +45,7 @@ export default function Home() {
             Data Scientist <span className="text-gray-400 dark:text-gray-500">|</span> Machine Learning & Gen AI
           </h2>
           <p className="text-lg md:text-1.5xl text-gray-500 dark:text-gray-400 font-medium">
-            Codeforces 1274 <span className="mx-1">·</span> IYMC 2025 Finalist
+            Codeforces 1274 <span className="mx-1">·</span> International Youth Math Challenge 2025 Gold Medalist
           </p>
 
           {/* Profile Links */}
@@ -86,7 +86,7 @@ export default function Home() {
           {/* Resume Button */}
           <div className="pt-4">
             <a
-              href="/resume/Resume.pdf"
+              href="/resume/Md. Mahir Uddin resume.pdf"
               download
               className="inline-block px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 dark:hover:bg-indigo-500 transition"
             >
