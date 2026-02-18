@@ -78,13 +78,13 @@ export default function Home() {
             problem-solving. I’m currently working on an ADB-funded project that uses AI and IoT to reduce water consumption
             in textile dyeing factories. Beyond this, I’ve worked on various projects ranging from fabric defect detection
             using CNNs to fine-tuning models and building RAG applications. I’m currently doing two research works. One is
-            developing a noble clustering algorithm based on density and the second one is modification of ADAM optimizer 
-            to reduce oscillation and faster convergence in backpropagation. Additionally, I was a Mathematics lecturer at 
+            developing a noble clustering algorithm based on density and the second one is modification of ADAM optimizer
+            to reduce oscillation and faster convergence in backpropagation. Additionally, I was a Mathematics lecturer at
             Sunrise Coaching Centre and UCC. Apart from this, I bring discipline, reliability and a “get things done” attitude with a strong analytical mindset.
           </p>
 
           {/* Resume Button */}
-          <div className="pt-4">
+          {/* <div className="pt-4">
             <a
               href="/resume/Md. Mahir Uddin resume.pdf"
               download
@@ -92,7 +92,19 @@ export default function Home() {
             >
               Download Resume
             </a>
+          </div> */}
+          {/* Resume Button */}
+          <div className="pt-4">
+            <a
+              href="/resume/Md__Mahir_Uddin_Data_Scientist.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 dark:hover:bg-indigo-500 transition"
+            >
+              View Resume
+            </a>
           </div>
+
         </div>
       </section>
 
