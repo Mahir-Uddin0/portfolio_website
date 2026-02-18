@@ -65,6 +65,44 @@ export default function Projects() {
 
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                Portrait Image to Sketch Translation with Pix2Pix GAN
+              </h3>
+
+              <p className="mt-3 text-sm text-justify text-gray-600 dark:text-gray-400 leading-relaxed">
+                This project implements a Pix2Pix conditional GAN with a U-Net generator and PatchGAN 
+                discriminator to transform facial photos into sketches. Trained on the FS2K dataset, 
+                it produces high-quality, structurally accurate sketches through combined adversarial 
+                and L1 loss.            
+                </p>
+            </div>
+
+            {/* GitHub */}
+            <div className="mt-6">
+              {/* Tech Stack */}
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="skill-pill">TensorFlow</span>
+                <span className="skill-pill">Pix2Pix GAN</span>
+                <span className="skill-pill">U-Net</span>
+                {/* <span className="skill-pill">PatchGAN</span> */}
+              </div>
+              <br></br>
+              <a
+                href="https://github.com/Mahir-Uddin0/portrait-to-sketch-translation-with-Pix2Pix-GAN/tree/main"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline"
+              >
+                <FaGithub className="text-lg" />
+                View Code
+              </a>
+            </div>
+          </div>
+
+          {/* 3. Project Card */}
+          <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                 Density-Aware Dynamic Cluster Splitting Algorithm
               </h3>
 
@@ -97,7 +135,7 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* 3. Project Card */}
+          {/* 4. Project Card */}
           <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
 
             <div>
@@ -132,7 +170,7 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* 4. Project Card */}
+          {/* 5. Project Card */}
           <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
 
             <div>
@@ -147,15 +185,18 @@ export default function Projects() {
                 rules that capture non-linear patterns in stock price movements.
               </p>
 
-
-            <div className="mt-6">
-              <div className="mt-4 flex flex-wrap gap-2">
-                <span className="skill-pill">ANFIS</span>
-                <span className="skill-pill">PyTorch</span>
-                <span className="skill-pill">Scikit-learn</span>
               </div>
-            </div>
-            <br></br>
+
+              <div className="mt-6">
+               {/* Tech Stack */}
+              <div className="mt-6">
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="skill-pill">ANFIS</span>
+                  <span className="skill-pill">PyTorch</span>
+                  <span className="skill-pill">Scikit-learn</span>
+                </div>
+              </div>
+              <br></br>
               <a
                 href="https://github.com/Mahir-Uddin0/stock-trend-identification-using-ANFIS"
                 target="_blank"
@@ -168,7 +209,7 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* 5. Project Card */}
+          {/* 6. Project Card */}
           <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
 
             <div>
@@ -208,7 +249,7 @@ export default function Projects() {
 
 
 
-          {/* 6. Project Card */}
+          {/* 7. Project Card */}
           <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
 
             <div>
