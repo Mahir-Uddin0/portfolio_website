@@ -194,6 +194,12 @@ const individualCertificates = [
     credential: "https://www.coursera.org/account/accomplishments/records/5BM7ZAGRQDLT",
   },
   {
+    title: "Convolutional Neural Networks",
+    provider: "DeepLearning.AI · Coursera",
+    pdf: "/certificates/Individual/4. Convolutional Neural Networks.pdf",
+    credential: "https://www.coursera.org/account/accomplishments/verify/WC86R3XMKBZF",
+  },
+  {
     title: "Introduction to Internet of Things and Embedded Systems",
     provider: "University of California · Coursera",
     pdf: "/certificates/Individual/IOT.pdf",
