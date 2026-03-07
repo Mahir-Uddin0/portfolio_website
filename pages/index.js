@@ -96,7 +96,7 @@ export default function Home() {
           {/* Resume Button */}
           <div className="pt-4">
             <a
-              href="/resume/Md__Mahir_Uddin_Data_Scientist.pdf"
+              href="/resume/Md._Mahir_Uddin_ML_Engineer_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 dark:hover:bg-indigo-500 transition"
