@@ -72,15 +72,16 @@ export default function Home() {
 
           {/* About Me */}
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed pt-4 text-sm md:text-base text-justify">
-            I’m a Data Scientist focused on delivering business value through advanced analytics and predictive modeling,
-            leveraging Machine Learning and Deep Learning techniques. I transitioned into the field of Data Science and AI
-            by pursuing a Master’s in CSE with a major in Data Science, driven by a long-standing love for Mathematics and
-            problem-solving. I’m currently working on an ADB-funded project that uses AI and IoT to reduce water consumption
-            in textile dyeing factories. Beyond this, I’ve worked on various projects ranging from fabric defect detection
-            using CNNs to fine-tuning models and building RAG applications. I’m currently doing two research works. One is
-            developing a noble clustering algorithm based on density and the second one is modification of ADAM optimizer
-            to reduce oscillation and faster convergence in backpropagation. Additionally, I was a Mathematics lecturer at
-            Sunrise Coaching Centre and UCC. Apart from this, I bring discipline, reliability and a “get things done” attitude with a strong analytical mindset.
+            I’m a Machine Learning Engineer focused on delivering business value through advanced analytics and predictive 
+            modeling, leveraging Machine Learning and Deep Learning techniques. I transitioned into the field of Data Science 
+            and AI by pursuing a Master’s in CSE with a major in Data Science, driven by a long-standing love for Mathematics and
+            problem-solving. I’m currently working as a part-time Research Engineer (AI/ML) on an ADB-funded project that uses AI and 
+            IoT to reduce water consumption in textile dyeing factories. Beyond this, I’ve worked on various projects ranging
+            from Portrait image to Sketch translation using GANs to fine-tuning models and building RAG applications. I’m currently doing
+            two research works. One is developing a novel clustering algorithm based on density and the second one is 
+            modification of ADAM optimizer to reduce oscillation and faster convergence in backpropagation. Additionally, 
+            I was a Mathematics lecturer at Sunrise Coaching Centre and UCC. Apart from this, I bring discipline, reliability 
+            and a “get things done” attitude with a strong analytical mindset.
           </p>
 
           {/* Resume Button */}
