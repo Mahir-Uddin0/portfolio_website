@@ -42,7 +42,7 @@ export default function Home() {
             Md. Mahir Uddin
           </h1>
           <h2 className="text-lg md:text-2xl font-semibold text-gray-500 dark:text-gray-300">
-            Data Scientist <span className="text-gray-400 dark:text-gray-500">|</span> Machine Learning & Gen AI
+            Machine Learning Engineer <span className="text-gray-400 dark:text-gray-500">|</span> Computer Vision & Gen AI
           </h2>
           <p className="text-lg md:text-1.5xl text-gray-500 dark:text-gray-400 font-medium">
             Codeforces 1274 <span className="mx-1">·</span> International Youth Math Challenge 2025 Gold Medalist
