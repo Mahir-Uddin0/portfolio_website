@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FaPython, FaJsSquare, FaHtml5, FaCss3Alt, FaLinux, FaDatabase } from "react-icons/fa";
-import { SiTensorflow, SiC, SiPytorch, SiNumpy, SiMysql, SiPandas, SiDocker, SiGit, SiKubernetes } from "react-icons/si";
+import { SiTensorflow, SiC, SiPytorch, SiNumpy, SiMysql, SiPandas, SiDocker, SiGit, SiKubernetes, SiFastapi } from "react-icons/si";
 import { FaProjectDiagram, FaLanguage, FaRegImage, FaCamera } from "react-icons/fa";
 
 
@@ -25,15 +25,22 @@ export default function Skills() {
 
         {/* Languages */}
         <div>
-          <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-4">Languages</h3>
+          <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-4">Programming Languages</h3>
           <div className="flex flex-wrap gap-4">
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaPython className="text-yellow-400 text-xl" /> Python</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaDatabase className="text-yellow-300 text-xl" /> SQL</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/c.svg" alt="C" width={24} height={24}/> C</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/c++.svg" alt="C++" width={59} height={59}/> C++</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaJsSquare className="text-yellow-300 text-xl" /> JavaScript</span>
             {/* <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaHtml5 className="text-orange-500 text-xl" /> HTML</span> */}
             {/* <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaCss3Alt className="text-blue-500 text-xl" /> CSS</span> */}
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><FaDatabase className="text-yellow-300 text-xl" /> SQL</span>
+          </div>
+          <div className="mt-6">
+          <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-4">Deployment</h3>
+          <div className="flex flex-wrap gap-4">
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiFastapi className="text-xl" /> FastAPI</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiDocker className="text-blue-600 text-xl" /> Docker</span>
+          </div>
           </div>
         </div>
 
