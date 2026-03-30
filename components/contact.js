@@ -51,7 +51,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/mahir-uddin-b1aa1a156/"
+              href="https://www.linkedin.com/in/mahir-uddin0/"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 hover:text-indigo-600 dark:hover:text-indigo-400 transition"

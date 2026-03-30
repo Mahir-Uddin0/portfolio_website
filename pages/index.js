@@ -50,7 +50,7 @@ export default function Home() {
 
           {/* Profile Links */}
           <div className="flex justify-center md:justify-start gap-5 text-gray-600 dark:text-gray-300 text-2xl pt-2">
-            <a href="https://www.linkedin.com/in/mahir-uddin-b1aa1a156/" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+            <a href="https://www.linkedin.com/in/mahir-uddin0/" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
               <FaLinkedin />
             </a>
             <a href="https://github.com/Mahir-Uddin0" target="_blank" rel="noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
