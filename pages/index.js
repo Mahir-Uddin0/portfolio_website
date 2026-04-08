@@ -42,10 +42,10 @@ export default function Home() {
             Md. Mahir Uddin
           </h1>
           <h2 className="text-lg md:text-2xl font-semibold text-gray-500 dark:text-gray-300">
-            Machine Learning Engineer <span className="text-gray-400 dark:text-gray-500">|</span> Computer Vision & Gen AI
+            Data Scientist <span className="text-gray-400 dark:text-gray-500">|</span> Computer Vision & Gen AI
           </h2>
           <p className="text-lg md:text-1.5xl text-gray-500 dark:text-gray-400 font-medium">
-            Codeforces 1274 <span className="mx-1">·</span> International Youth Math Challenge 2025 Gold Medalist
+            Codeforces 1302 <span className="mx-1">·</span> International Youth Math Challenge 2025 Gold Medalist
           </p>
 
           {/* Profile Links */}
@@ -72,7 +72,7 @@ export default function Home() {
 
           {/* About Me */}
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed pt-4 text-sm md:text-base text-justify">
-            I’m a Machine Learning Engineer focused on delivering business value through advanced analytics and predictive 
+            I’m a Data Scientist focused on delivering business value through advanced analytics and predictive 
             modeling, leveraging Machine Learning and Deep Learning techniques. I transitioned into the field of Data Science 
             and AI by pursuing a Master’s in CSE with a major in Data Science, driven by a long-standing love for Mathematics and
             problem-solving. I’m currently working as a part-time Research Engineer (AI/ML) on an ADB-funded project that uses AI and 
