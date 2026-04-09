@@ -24,6 +24,46 @@ export default function Projects() {
 
 
           {/* 1. Project Card */}
+          <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                Skin Diseases Prediction with LLM Recommendations
+              </h3>
+
+              <p className="mt-3 text-sm text-justify text-gray-600 dark:text-gray-400 leading-relaxed">
+                Built a Vision Transformer-based skin disease classifier using Data-efficient Image Transformers (DeiT), 
+                achieving 97%+ accuracy with real-time inference via FastAPI. Integrated Gemini 2.5 Flash for LLM-driven 
+                medical recommendations, and deployed the Dockerized application on the cloud with an interactive Streamlit 
+                interface.
+              </p>
+            </div>
+
+            {/* GitHub */}
+            <div className="mt-6">
+              {/* Tech Stack */}
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="skill-pill">ViT</span>
+                <span className="skill-pill">LLM</span>
+                <span className="skill-pill">FastAPI</span>
+                <span className="skill-pill">Docker</span>
+              </div>
+              <br></br>
+              <a
+                href="https://github.com/Mahir-Uddin0/skin-disease-prediction-with-LLM-recommendations"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline"
+              >
+                <FaGithub className="text-lg" />
+                View Code
+              </a>
+            </div>
+          </div>
+
+
+
+          {/* 1. Project Card */}
           <div className="bg-neutral-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
 
             <div>
@@ -60,7 +100,7 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* 3. Project Card */}
+          {/* 2. Project Card */}
           <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
 
             <div>
@@ -69,11 +109,11 @@ export default function Projects() {
               </h3>
 
               <p className="mt-3 text-sm text-justify text-gray-600 dark:text-gray-400 leading-relaxed">
-                This project implements a Pix2Pix conditional GAN with a U-Net generator and PatchGAN 
-                discriminator to transform facial photos into sketches. Trained on the FS2K dataset, 
-                it produces high-quality, structurally accurate sketches through combined adversarial 
-                and L1 loss.            
-                </p>
+                This project implements a Pix2Pix conditional GAN with a U-Net generator and PatchGAN
+                discriminator to transform facial photos into sketches. Trained on the FS2K dataset,
+                it produces high-quality, structurally accurate sketches through combined adversarial
+                and L1 loss.
+              </p>
             </div>
 
             {/* GitHub */}
@@ -185,10 +225,10 @@ export default function Projects() {
                 rules that capture non-linear patterns in stock price movements.
               </p>
 
-              </div>
+            </div>
 
-              <div className="mt-6">
-               {/* Tech Stack */}
+            <div className="mt-6">
+              {/* Tech Stack */}
               <div className="mt-6">
                 <div className="mt-4 flex flex-wrap gap-2">
                   <span className="skill-pill">ANFIS</span>
