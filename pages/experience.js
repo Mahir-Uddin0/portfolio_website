@@ -24,7 +24,7 @@ export default function Experience() {
               ADB-Funded AI & IoT Project
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-500">
-              Jan 2026 – Present
+              Feb 2026 – Present
             </p>
           </div>
 
