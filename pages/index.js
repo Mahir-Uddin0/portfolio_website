@@ -76,7 +76,7 @@ export default function Home() {
             modeling, leveraging Machine Learning and Deep Learning techniques. I transitioned into the field of Data Science 
             and AI by pursuing a Master’s in CSE with a major in Data Science, driven by a long-standing love for Mathematics and
             problem-solving. I’m currently working as a part-time Research Engineer (AI/ML) on an ADB-funded project that uses AI and 
-            IoT to reduce water consumption in textile dyeing factories. Beyond this, I’ve worked on various projects ranging
+            IoT to increase right-first-time shade and reduce resource consumption in textile dyeing factories. Beyond this, I’ve worked on various projects ranging
             from Portrait image to Sketch translation using GANs to fine-tuning models and building RAG applications. I’m currently doing
             two research works. One is developing a novel clustering algorithm based on density and the second one is 
             modification of ADAM optimizer to reduce oscillation and faster convergence in backpropagation. Additionally, 
