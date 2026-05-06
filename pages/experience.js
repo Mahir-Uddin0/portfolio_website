@@ -30,7 +30,7 @@ export default function Experience() {
 
 
           {/* Epyllion Group */}
-          <div className="relative pl-8">
+          {/* <div className="relative pl-8">
             <span className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-gray-500"></span>
 
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
@@ -45,9 +45,9 @@ export default function Experience() {
             <p className="text-sm text-gray-500 dark:text-gray-500">
               Gazipur, Dhaka
             </p>
-          </div>
+          </div> */}
           {/* Management Trainee */}
-          <div className="relative pl-8">
+          {/* <div className="relative pl-8">
             <span className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-gray-400"></span>
 
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
@@ -62,7 +62,7 @@ export default function Experience() {
             <p className="text-sm text-gray-500 dark:text-gray-500">
               Gazipur, Dhaka
             </p>
-          </div>
+          </div> */}
 
           {/* Sunrise Coaching */}
           <div className="relative pl-8">
