@@ -2,10 +2,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Skills from "../components/Skills";
 import Contact from "../components/contact";
-import {
-  FaLinkedin,
-  FaGithub,
-} from "react-icons/fa";
+import {FaLinkedin, FaGithub} from "react-icons/fa";
 import { SiKaggle, SiCoursera, SiCodeforces, SiLeetcode } from "react-icons/si";
 
 export default function Home() {
@@ -112,6 +109,7 @@ export default function Home() {
 
       {/* Skills Section */}
       <Skills />
+      {/* Contact Section */}
       <Contact />
     </main>
   );
