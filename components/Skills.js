@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { FaPython, FaJsSquare, FaHtml5, FaCss3Alt, FaLinux, FaDatabase } from "react-icons/fa";
-import { SiTensorflow, SiC, SiPytorch, SiNumpy, SiMysql, SiPandas, SiDocker, SiGit, SiKubernetes, SiFastapi } from "react-icons/si";
+import { SiTensorflow, SiC, SiPytorch, SiNumpy, SiMysql, SiPandas, SiDocker, SiGit, SiKubernetes, SiFastapi, SiAmazonec2 } from "react-icons/si";
 import { FaProjectDiagram, FaLanguage, FaRegImage, FaCamera } from "react-icons/fa";
+import { TbApi } from "react-icons/tb";
 
 
 export default function Skills() {
@@ -39,9 +40,9 @@ export default function Skills() {
           <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-4">MLOps/Deployment</h3>
           <div className="flex flex-wrap gap-4">
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiFastapi className="text-xl" /> FastAPI</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiDocker className="text-blue-600 text-xl" /> Rest APIs</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><TbApi className="text-blue-600 text-xl" /> Rest APIs</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiDocker className="text-blue-600 text-xl" /> Docker</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiDocker className="text-blue-600 text-xl" /> AWS EC2</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiAmazonec2 className="text-blue-600 text-xl" /> AWS EC2</span>
           </div>
           </div>
         </div>
