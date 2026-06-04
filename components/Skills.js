@@ -1,8 +1,25 @@
 import Image from "next/image";
 import { FaPython, FaJsSquare, FaHtml5, FaCss3Alt, FaLinux, FaDatabase } from "react-icons/fa";
-import { SiTensorflow, SiC, SiPytorch, SiNumpy, SiMysql, SiPandas, SiDocker, SiGit, SiKubernetes, SiFastapi, SiAmazonec2 } from "react-icons/si";
+import { SiTensorflow, SiC, SiPytorch, SiNumpy, SiMysql, SiPandas, SiDocker, SiGit, SiKubernetes, SiFastapi } from "react-icons/si";
 import { FaProjectDiagram, FaLanguage, FaRegImage, FaCamera } from "react-icons/fa";
 import { TbApi } from "react-icons/tb";
+
+function AwsEc2Logo({ className = "" }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      role="img"
+      aria-label="AWS EC2"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M5.5 6.2 12 3l6.5 3.2L12 9.4 5.5 6.2Z" fill="#FF9900" />
+      <path d="M5.5 11.2 12 8l6.5 3.2-6.5 3.2-6.5-3.2Z" fill="#FF9900" opacity="0.85" />
+      <path d="M5.5 16.2 12 13l6.5 3.2-6.5 3.2-6.5-3.2Z" fill="#FF9900" opacity="0.7" />
+    </svg>
+  );
+}
 
 
 export default function Skills() {
@@ -40,9 +57,9 @@ export default function Skills() {
           <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-4">MLOps/Deployment</h3>
           <div className="flex flex-wrap gap-4">
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiFastapi className="text-xl" /> FastAPI</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><TbApi className="text-blue-600 text-xl" /> Rest APIs</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><TbApi className="text-blue-600 text-xl" /> REST APIs</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiDocker className="text-blue-600 text-xl" /> Docker</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiAmazonec2 className="text-blue-600 text-xl" /> AWS EC2</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><AwsEc2Logo className="h-6 w-6" /> AWS EC2</span>
           </div>
           </div>
         </div>

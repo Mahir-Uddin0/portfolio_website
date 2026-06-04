@@ -39,7 +39,7 @@ export default function Home() {
             Md. Mahir Uddin
           </h1>
           <h2 className="text-lg md:text-2xl font-semibold text-gray-500 dark:text-gray-300">
-            Machine Learning Engineer <span className="text-gray-400 dark:text-gray-500">|</span> Computer Vision & Gen AI
+            AI/ML Engineer <span className="text-gray-400 dark:text-gray-500">|</span> Computer Vision & Gen AI
           </h2>
           <p className="text-lg md:text-1.5xl text-gray-500 dark:text-gray-400 font-medium">
             Codeforces 1302 <span className="mx-1">·</span> International Youth Math Challenge 2025 Gold Medalist
@@ -95,7 +95,8 @@ export default function Home() {
           <div className="pt-4">
             <a
               // href="/resume/Md__Mahir_Uddin_Data_Scientist_Resume.pdf"
-              href="/resume/Md__Mahir_Uddin_ML_Engineer_Resume.pdf"
+              // href="/resume/Md__Mahir_Uddin_ML_Engineer_Resume.pdf"
+              href="/resume/Md__Mahir_Uddin_AI_ML_Engineer_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 dark:hover:bg-indigo-500 transition"
