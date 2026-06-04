@@ -69,7 +69,7 @@ export default function Home() {
 
           {/* About Me */}
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed pt-4 text-sm md:text-base text-justify">
-            I’m a Machine Learning Engineer focused on delivering business value through advanced analytics and predictive 
+            I’m an AI/ML Engineer focused on delivering business value through advanced analytics and predictive 
             modeling, leveraging Machine Learning and Deep Learning techniques. I transitioned into the field of Data Science 
             and AI by pursuing a Master’s in CSE with a major in Data Science, driven by a long-standing love for Mathematics and
             problem-solving. I’m currently working as a part-time Research Engineer (AI/ML) on an ADB-funded project that uses AI and 
