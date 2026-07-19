@@ -57,9 +57,9 @@ export default function Skills() {
           <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-4">MLOps/Deployment</h3>
           <div className="flex flex-wrap gap-4">
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiFastapi className="text-xl" /> FastAPI</span>
-            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><TbApi className="text-blue-600 text-xl" /> REST APIs</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><SiDocker className="text-blue-600 text-xl" /> Docker</span>
             <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><AwsEc2Logo className="h-6 w-6" /> AWS EC2</span>
+            <span className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-200 px-3 py-1 rounded-full shadow-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition"><Image src="/images/skills/gcp.svg" alt="Google Cloud Platform" width={24} height={24}/> Google Cloud Run</span>
           </div>
           </div>
         </div>

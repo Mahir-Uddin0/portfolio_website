@@ -42,7 +42,7 @@ export default function Home() {
             AI/ML Engineer <span className="text-gray-400 dark:text-gray-500">|</span> Computer Vision & Gen AI
           </h2>
           <p className="text-lg md:text-1.5xl text-gray-500 dark:text-gray-400 font-medium">
-            Codeforces 1302 <span className="mx-1">·</span> International Youth Math Challenge 2025 Gold Medalist
+            Codeforces Max Rating 1309 <span className="mx-1">·</span> International Youth Math Challenge 2025 Gold Medalist
           </p>
 
           {/* Profile Links */}
