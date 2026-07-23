@@ -1,4 +1,5 @@
 import { FaGithub } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
 
 export default function Projects() {
   return (
@@ -21,6 +22,62 @@ export default function Projects() {
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+
+
+          {/* 1. Project Card */}
+          <div className="bg-neutral-50  dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between">
+
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                Diffusion-based Virtual Try-On System
+              </h3>
+
+              <p className="mt-3 text-sm text-justify text-gray-600 dark:text-gray-400 leading-relaxed">
+                Built an end-to-end virtual try-on backend using diffusion models to generate realistic 
+                garment transfers from person and clothing images. Designed a Dockerized FastAPI inference 
+                service with GPU acceleration, enabling scalable cloud deployment on GCP.
+              </p>
+            </div>
+
+            {/* Links */}
+            <div className="mt-6">
+              {/* Tech Stack */}
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="skill-pill">Stable Diffusion</span>
+                <span className="skill-pill">Hugging Face</span>
+                <span className="skill-pill">FastAPI</span>
+                <span className="skill-pill">Docker</span>
+                <span className="skill-pill">GCP</span>
+              </div>
+              <br></br>
+              <div className="flex flex-wrap items-center gap-4">
+                <a
+                  href="https://github.com/Mahir-Uddin0/catvton-backend"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline"
+                >
+                  <FaGithub className="text-lg" />
+                  View Code
+                </a>
+                
+                <a
+                  href="https://myvton.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline"
+                >
+                  <FiExternalLink className="text-lg" />
+                  Live Demo
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+
 
 
           {/* 1. Project Card */}
